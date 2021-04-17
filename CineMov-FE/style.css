@@ -32,6 +32,8 @@ header {
     border-color: white;
 }
 
+
+
 .discover {
     font-size: 33pt;
 }
@@ -99,16 +101,19 @@ header {
     background-color: rgba(0, 0, 0, 0.4);
   }
 
-  .subs {
-      width: 28vh;
-      font-size: 22px;
-  }
+.subs {
+    width: 28vh;
+    font-size: 22px;
+}
 
-  .subs_email {
+.subs_email {
     border-color: var(--color-orange);
-  }
+}
 
-  .foot {
-      margin-top: 40em;
-  }
+.foot {
+    margin-top: 40em;
+}
 
+.subbut {
+    background: var(--color-orange);
+}
