@@ -13,7 +13,6 @@ header {
     background-image: url('./pic/mulan-hd-crop.png');
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(0.67);
     height: 100vh;
 }
 
