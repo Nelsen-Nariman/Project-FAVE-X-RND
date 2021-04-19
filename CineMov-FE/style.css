@@ -37,8 +37,6 @@ header {
     border-color: white;
 }
 
-
-
 .discover {
     font-size: 33pt;
 }
@@ -64,7 +62,7 @@ header {
 
 .wave img{
     width: 100%;
-    margin-top: -80px;
+    /* margin-top: -80px; */
 }
 
 .cok {
@@ -95,6 +93,12 @@ header {
 
 .bg-card {
     background: url('./pic/Rectangle 16.png')
+}
+
+.card-txt {
+    position: absolute;
+    top: 20vh;
+    left: 20vh;
 }
 
 .grad {
