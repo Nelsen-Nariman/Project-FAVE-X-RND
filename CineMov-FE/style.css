@@ -10,7 +10,7 @@
 }
 
 header {
-    background-image: url('./pic/mulan-hd-crop.png');
+    background-image: url('./pic/mulan-dark.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 1100px;
@@ -33,9 +33,31 @@ header {
     color: var(--color-orange);
 }
 
-.searching {
-    border-color: white;
-}
+.searchBar {
+    display: flex;
+    height: 2em;
+    padding: 0.5em;
+    background-color: white;
+    border-radius: 0.7em;
+    width: 14em;
+    margin-top: 0.3em;
+    margin-right: 4em;
+  }
+  
+.searchBox {
+    background-color: transparent;
+    border: none;
+    color: black;
+    width: 11em;
+  }
+  
+  .searchIcon {
+    background-color: transparent;
+    width: 20%;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+  }
+  
 
 .discover {
     font-size: 33pt;
@@ -62,7 +84,6 @@ header {
 
 .wave img{
     width: 100%;
-    /* margin-top: -80px; */
 }
 
 .cok {
@@ -95,12 +116,6 @@ header {
     background: url('./pic/Rectangle 16.png')
 }
 
-.card-txt {
-    position: absolute;
-    top: 20vh;
-    left: 20vh;
-}
-
 .grad {
     background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.685), rgba(68,49,43, 1));
     border-bottom-right-radius: 8%;
@@ -108,13 +123,14 @@ header {
 }
 
 .wat {
-    background-image:  linear-gradient(to bottom left, rgba(255, 255, 255, 0.726), rgba(68,49,43, 1));
+    background-image:  linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(93, 72, 65, 0.8));
     border: none;
 }
 
 .wat:hover {
     background: var(--color-orange);
     border-color: var(--color-orange);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), #f79421);;
     color:white;
 }
 
