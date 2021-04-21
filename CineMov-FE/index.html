@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body class="cok">
-        <header class="text-gray-600 body-font pb-32">
+  
+        <header class="body-font pb-32">
             <div class="mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center" id="Navbar">
-              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+              <a href="./index.html" class="flex title-font font-medium items-center mb-4 md:mb-0">
                 <span class="tracking-tighter text-5xl font-black text-white ml-5 mt-4"><span class="cine">Cine</span>Mov.</span>
               </a>
               <nav class="text-white md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center pt-4">
@@ -20,40 +21,44 @@
                   <a class="text-3xl hover:underline" href="#muvi"><span class="pr-10 pl-10 movieBtn">MOVIE</span></a>
                   <a class="text-3xl hover:underline" href="#trail"><span class="pl-10 trailerBtn">TRAILER</span></a>
               </nav>
-              <button>
-                <img src="pic/eva_search-fill.png" class="w-8 mr-8" id="iconSearch" style="display: block;" onclick="searchNyaBerubah()">
-                <input id="inputSearch" class="text-black rounded-full mr-8 pr-7 pl-2 py-1.5 text-left bg-white border-4 searching" type="text" name="typesearch" placeholder="Search" style="display: none;" onblur="searchNyaNgilang()" /> 
-              </button>
-              <button class="mr-14 text-white text-2xl inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-6 md:mt-0">EN</button>
-              <button>
-                <img class="w-18 mt-2 pr-6" src="./pic/bi_person-circle.png">
-                
+                <div class="searchBar">
+                  <img src="./pic/searchBlack.svg" class="searchIcon" />
+                  <input
+                    type="text"
+                    name="search"
+                    class="searchBox"
+                    placeholder="  Search"
+                    id="searchBox"
+                  />
+                </div>
+               <button class="w-18 mt-2 mr-6">
+                <img src="./pic/bi_person-circle.png">
               </button>
               </div>
+              
               <div class="flex flex-col inside ml-24">
-                <span class="mt-96 tracking-tighter text-7xl font-black text-white ml-16 buy">BUY TICKET, WATCH, AND CHILL</span>
-                <span class="my-4 text-white ml-16 discover tracking-wide">Discover New Movies</span>
+                <span class="pt-96 tracking-tighter text-7xl font-black text-white ml-16 buy">BUY TICKET, WATCH, AND CHILL</span>
+                <span class="py-4 text-white ml-16 discover tracking-wide">Discover New Movies</span>
                 <div class="flex">
-                  <button class="flex items-center mt-3 border-4 rounded-full px-10 py-0 font-bold tracking-tighter text-2xl text-black signup">Sign Up</button>
-                  <button class="flex items-center mt-3 border-4 rounded-full px-14 py-0 font-bold tracking-tighter text-2xl ml-6 login">Login</button>
+                  <a href="./register.html"><button class="flex items-center mt-3 border-4 rounded-full px-10 py-0 font-bold tracking-tighter text-2xl text-black signup">Sign Up</button></a>
+                  <a href="./login.html"><button class="flex items-center mt-3 border-4 rounded-full px-14 py-0 font-bold tracking-tighter text-2xl ml-6 login">Login</button></a>
+                </div>
+                <div class="wave">
+                  <img src="../CineMov-FE/pic/Vector 1.png" alt="">
                 </div>
               </div>
-
-              <div class="wave">
-                <img src="../CineMov-FE/pic/Vector 1.png" alt="">
-              </div>
           </header>
+          
           <div class="cok flex flex-col">
             <div class="justify-center mx-auto my-auto">
             <img class="pt-64 enjoy" src="pic/Illustration watch 1.png">
-            <h1 class="tracking-tighter pt-16 pb-5 font-black text-6xl text-white text-center">Online Cinema</h1>
+            <h1 class="tracking-tighter pt-20 pb-5 font-black text-6xl text-white text-center">Online Cinema</h1>
             <h2 class="tracking-wider pb-96 text-white text-center text-4xl">Enjoy the moment and stay updated.</h2>
           </div>
           <h1 id="muvi" class="tracking-widest pt-24 -mb-4 font-black text-5xl text-white text-center">MOVIES</h1>
           <div class="gallery">
             <div class="gallery-container">
               <img class="bg-card p-4 pb-16  gallery-item gallery-item-1" src="./pic/Movie Captain Marvel.jpg" data-index="1">
-              
               <img class="bg-card p-4 pb-16  gallery-item gallery-item-2" src="./pic/Movie Captain Marvel.jpg" data-index="2">
               <img class="bg-card p-4 pb-16  gallery-item gallery-item-3" src="./pic/Movie Captain Marvel.jpg" data-index="3">
               <img class="bg-card p-4 pb-16  gallery-item gallery-item-4" src="./pic/Movie Captain Marvel.jpg" data-index="4">
@@ -131,7 +136,7 @@
           </div>
           <div class="flex">
             <img src="./pic/clarity_email-solid.png" class="h-11 w-11 mr-4">
-            <h1 class="mt-1 text-white text-2xl">cinemov@gmail.com</h1>
+            <h1 class="mt-1 text-white text-3xl">cinemov@gmail.com</h1>
           </div>
     </div>
     <div clas="flex flex-col gap-12">
