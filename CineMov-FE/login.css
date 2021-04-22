@@ -7,6 +7,12 @@
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
+  font-family: Gilroy, sans-serif;
+    src : url(../gilroy-font/Gilroy-Bold.ttf);
+    src : url(../gilroy-font/Gilroy-Heavy.ttf);
+    src : url(../gilroy-font/Gilroy-Light.ttf);
+    src : url(../gilroy-font/Gilroy-Medium.ttf);
+    src : url(../gilroy-font/Gilroy-Regular.ttf);
 }
 
 body {
@@ -18,15 +24,6 @@ body {
 
 .cine {
   color: var(--color-orange);
-}
-
-.logo {
-  color: var(--color-orange);
-  margin: 1em;
-}
-
-.logo span {
-  color: white;
 }
 
 .header {
@@ -61,7 +58,6 @@ form {
 
 .header span {
   color: var(--color-orange);
-  cursor: pointer;
 }
 
 .pembatas {
