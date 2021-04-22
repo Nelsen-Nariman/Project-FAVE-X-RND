@@ -1,0 +1,122 @@
+:root {
+  --bgBrown: #44312b;
+  --btnOrange: #ff9416;
+  --color-orange: #f79421;
+}
+
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./pic/mulan-black.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.cine {
+  color: var(--color-orange);
+}
+
+.logo {
+  color: var(--color-orange);
+  margin: 1em;
+}
+
+.logo span {
+  color: white;
+}
+
+form {
+  background: linear-gradient(
+    146.53deg,
+    rgba(243, 243, 243, 0.534) -10.26%,
+    rgba(243, 243, 243, 0) 60.29%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45em;
+  margin-left: 40em;
+  margin-right: 24em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-radius: 1em;
+  backdrop-filter: blur(24px);
+  margin-bottom: 16em;
+}
+
+.header {
+  text-align: center;
+  font-size: 18pt;
+}
+
+.header span {
+  color: var(--color-orange);
+  cursor: pointer;
+}
+
+.pembatas {
+  margin-top: 1.2em;
+  margin-bottom: 3em;
+  color: rgb(175, 175, 175);
+}
+
+.formBody {
+  display: flex;
+}
+
+.formBody img {
+  width: 6em;
+  height: 6em;
+}
+
+.inputPP {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputPP input {
+  width: 6em;
+  margin-left: 1.5em;
+  margin-top: 0.3em;
+  margin-right: 1.5em;
+}
+
+.formBeneran {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+}
+
+.formBeneran input {
+  border-color: var(--color-orange);
+  background: transparent;
+  margin-bottom: 1em;
+  margin-top: 0.3em;
+  border-radius: 1em;
+  color: white;
+  padding: 0.3em 10em 0.3em 1em;
+  border-width: 2.7pt;
+}
+
+.signup {
+  background-color: var(--color-orange);
+  border-color: var(--color-orange);
+  margin-left: 3em;
+}
+
+.signup:hover {
+  color:white;
+}
+
+.errMsg {
+  color: rgb(255, 0, 0);
+  display: none;
+  transition: 0.2s;
+}
