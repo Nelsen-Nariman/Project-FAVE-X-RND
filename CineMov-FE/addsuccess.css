@@ -1,0 +1,84 @@
+* {
+    margin: 0%;
+    font-family: Gilroy, sans-serif;
+    src : url(../gilroy-font/Gilroy-Bold.ttf);
+    src : url(../gilroy-font/Gilroy-Heavy.ttf);
+    src : url(../gilroy-font/Gilroy-Light.ttf);
+    src : url(../gilroy-font/Gilroy-Medium.ttf);
+    src : url(../gilroy-font/Gilroy-Regular.ttf);
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./pic/background1.png);
+    height: 1000px;
+    width: 100%;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.profil{
+    margin-top: 5px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.kedua{
+    font-size: 47px;
+    font-weight: 800;
+    color: white;
+}
+
+.pertama{
+    font-size: 47px;
+    font-weight: 800;
+    color: #f79421;
+}
+
+.content{
+    background-color: black;
+    margin-left: 200px;
+    width: 900px;
+    border: solid 4px white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+    padding: 100px;
+}
+
+
+
+.caption{
+    margin-top: 50px;
+    color: #f79421;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.button{
+    margin-top: 100px;
+}
+
+.tombol{
+    
+    background-color: #f79421;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    border-radius: 17px;
+    text-decoration: none;
+}
