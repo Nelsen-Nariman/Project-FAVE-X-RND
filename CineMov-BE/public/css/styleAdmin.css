@@ -1,0 +1,72 @@
+* {
+    margin: 0%;
+    font-family: Gilroy, sans-serif;
+    src : url(../gilroy-font/Gilroy-Bold.ttf);
+    src : url(../gilroy-font/Gilroy-Heavy.ttf);
+    src : url(../gilroy-font/Gilroy-Light.ttf);
+    src : url(../gilroy-font/Gilroy-Medium.ttf);
+    src : url(../gilroy-font/Gilroy-Regular.ttf);
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./pic/background1.png);
+    height: 100%;
+    width: 100%;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.profil{
+    margin-top: 5px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.kedua{
+    font-size: 47px;
+    font-weight: 800;
+    color: white;
+}
+
+.pertama{
+    font-size: 47px;
+    font-weight: 800;
+    color: #f79421;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.konten{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(185, 183, 183, 0.5));
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    text-align: center;
+    padding: 60px;
+    padding-left: 170px;
+    padding-right: 170px;
+    color: white;
+    margin: 30px;
+}
+
+.isi-1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.isi-2{
+    font-size: 25px;
+}

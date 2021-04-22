@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet"href="css/style.css">
+</head>
+<body class="cok">
+  
+        <header class="body-font pb-32">
+            <div class="mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center" id="Navbar">
+              <a href="./index.html" class="flex title-font font-medium items-center mb-4 md:mb-0">
+                <span class="tracking-tighter text-5xl font-black text-white ml-5 mt-4"><span class="cine">Cine</span>Mov.</span>
+              </a>
+              <nav class="text-white md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center pt-4">
+                  <a class="text-3xl hover:underline" href="#"><span class="pr-10 homeBtn">HOME</span></a>                      
+                  <a class="text-3xl hover:underline" href="#muvi"><span class="pr-10 pl-10 movieBtn">MOVIE</span></a>
+                  <a class="text-3xl hover:underline" href="#trail"><span class="pl-10 trailerBtn">TRAILER</span></a>
+              </nav>
+                <div class="searchBar">
+                  <img src="./img/searchBlack.svg" class="searchIcon" />
+                  <input
+                    type="text"
+                    name="search"
+                    class="searchBox"
+                    placeholder="  Search"
+                    id="searchBox"
+                  />
+                </div>
+               <button class="w-18 mt-2 mr-6">
+                <img src="/img/bi_person-circle.png">
+              </button>
+              </div>
+              
+              <div class="flex flex-col inside ml-24">
+                <span class="pt-96 tracking-tighter text-7xl font-black text-white ml-16 buy">BUY TICKET, WATCH, AND CHILL</span>
+                <span class="py-4 text-white ml-16 discover tracking-wide">Discover New Movies</span>
+                <div class="flex">
+                  <a href="./register.html"><button class="flex items-center mt-3 border-4 rounded-full px-10 py-0 font-bold tracking-tighter text-2xl text-black signup">Sign Up</button></a>
+                  <a href="./login.html"><button class="flex items-center mt-3 border-4 rounded-full px-14 py-0 font-bold tracking-tighter text-2xl ml-6 login">Login</button></a>
+                </div>
+                <div class="wave">
+                  <img src="img/Vector-1.png" alt="">
+                </div>
+              </div>
+          </header>
+          
+          <div class="cok flex flex-col">
+            <div class="justify-center mx-auto my-auto">
+            <img class="pt-64 enjoy" src="/img/Illustration-watch-1.png">
+            <h1 class="tracking-tighter pt-20 pb-5 font-black text-6xl text-white text-center">Online Cinema</h1>
+            <h2 class="tracking-wider pb-96 text-white text-center text-4xl">Enjoy the moment and stay updated.</h2>
+          </div>
+          <h1 id="muvi" class="tracking-widest pt-24 -mb-4 font-black text-5xl text-white text-center">MOVIES</h1>
+          <div class="gallery">
+            <div class="gallery-container">
+              <img class="bg-card p-4 pb-16  gallery-item gallery-item-1" src="./img/Movie-Captain-Marvel.jpg" data-index="1">
+              <img class="bg-card p-4 pb-16  gallery-item gallery-item-2" src="./img/Movie-Captain-Marvel.jpg" data-index="2">
+              <img class="bg-card p-4 pb-16  gallery-item gallery-item-3" src="./img/Movie-Captain-Marvel.jpg" data-index="3">
+              <img class="bg-card p-4 pb-16  gallery-item gallery-item-4" src="./img/Movie-Captain-Marvel.jpg" data-index="4">
+              <img class="bg-card p-4 pb-16  gallery-item gallery-item-5" src="./img/Movie-Captain-Marvel.jpg" data-index="5">
+            </div>        
+            <div class="gallery-controls">
+            </div>
+          </div>
+         
+      <h1 id="trail" class="tracking-widest pt-96 mb-24 font-black text-5xl text-white text-center">TRAILERS</h1>
+      <section class="proe">
+        <div class="container px-4 py-245 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/3">
+              <div class="grad h-full border-opacity-60 rounded-lg overflow-hidden">
+                <img class="lg:h-60 md:h-36 w-full object-cover object-center" src="./img/Movie-Captain-Marvel.jpg" alt="blog">
+                <div class="flex p-6">
+                  <h1 class="title-font text-lg font-medium text-white">Captain Marvel</h1>
+                  <button id="button1" class="wat ml-44 font-bold border-2 text-white rounded-xl px-7 pt-1 wat" onclick="display1()">WATCH</button>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+              <div class="grad h-full border-opacity-60 rounded-lg overflow-hidden">
+                <img class="lg:h-60 md:h-36 w-full object-cover object-center" src="./img/raya.jpg" alt="blog">
+                <div class="flex p-6">
+                  <h1 class="title-font text-lg font-medium text-white">Raya and The Last Dragon</h1>
+                  <button id="button2" class="wat ml-24 font-bold border-2 text-white rounded-xl px-7 pt-1 wat" onclick="display2()">WATCH</button>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+              <div class="grad h-full border-opacity-60 rounded-lg overflow-hidden">
+                <img class="lg:h-60 md:h-36 w-full object-cover object-center" src="./img/kongzilla.jpg" alt="blog">
+                <div class="flex p-6">
+                  <h1 class="title-font text-lg font-medium text-white">Godzilla vs Kong</h1>
+                  <button id="button3" class="wat ml-44 font-bold border-2 text-white rounded-xl px-7 pt-1 wat" onclick="display3()">WATCH</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="modal1" class="modal mx-auto">
+        <iframe width="1280" height="720"
+        src="https://www.youtube.com/embed/Z1BCujX3pw8">
+        </iframe>
+      </div>
+      <div id="modal2" class="modal mx-auto">
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/1VIZ89FEjYI">
+        </iframe>
+      </div>
+      <div id="modal3" class="modal mx-auto">
+        <iframe width="1280" height="720"
+        src="https://www.youtube.com/embed/odM92ap8_c0">
+        </iframe>
+      </div>
+    </div>
+
+      <footer class="bg-footer flex flex-wrap content-center place-content-center place-items-center gap-36 items-center pb-28 foot">
+        <div clas="flex-col"> 
+            <span class="tracking-tighter text-7xl font-black text-white ml-3"><span class="cine">Cine</span>Mov.</span>
+            <h1 class="mt-6 ml-4 text-white text-3xl pb-16">Online Cinema.</h1>
+        </div>
+        <div clas="flex flex-col gap-12">
+          <h1 class="text-white text-2xl pb-8">Home</h1>
+          <h1 class="text-white text-2xl pb-8">Movies</h1>
+          <h1 class="text-white text-2xl">Trailers</h1>
+      </div>
+      <div clas="flex flex-col gap-12">
+          <h1 class="text-white text-2xl font-bold pb-8">Contact Us</h1>
+          <div class="flex">
+            <img src="/img/Vector.png" class="h-8 w-9 mr-4">
+            <h1 class="-mt-1 text-white text-2xl pb-8">+62 8145 8452 778</h1>
+          </div>
+          <div class="flex">
+            <img src="/img/clarity_email-solid.png" class="h-11 w-11 mr-4">
+            <h1 class="mt-1 text-white text-3xl">cinemov@gmail.com</h1>
+          </div>
+    </div>
+    <div clas="flex flex-col gap-12">
+      <h1 class="text-white subs -pt-4 pb-4"> Don’t forget to subscribe
+                                              our mailing list to stay
+                                              updated.
+      </h1>
+        <input class="mb-4 text-white rounded-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-yellow-400 focus:border-yellow-900 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" type="text" name="typemail" placeholder="Type your email"/>
+        <button class="mb-4 lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-black font-bold border-0 py-2 px-6 focus:outline-none subbut rounded hover:text-white ml-2">Subscribe</button>
+  </div>
+      </footer>
+      
+          <script src="/js/carousel.js"></script>
+          <script src="/js/style.js"></script>
+          <script>
+            var modal1 = document.getElementById("modal1");
+            var modal2 = document.getElementById("modal2");
+            var modal3 = document.getElementById("modal3");
+
+            window.onclick = function (event) {
+        if (event.target == modal1) {
+          modal1.style.display = "none";
+        }
+        if (event.target == modal2) {
+          modal2.style.display = "none";
+        }
+        if (event.target == modal3) {
+          modal3.style.display = "none";
+        }
+      };
+          </script> 
+</body>
+
+
+</html>

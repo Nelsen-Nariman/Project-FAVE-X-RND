@@ -1,0 +1,174 @@
+
+* {
+    margin: 0%;
+    font-family: Gilroy, sans-serif;
+    src : url(../gilroy-font/Gilroy-Bold.ttf);
+    src : url(../gilroy-font/Gilroy-Heavy.ttf);
+    src : url(../gilroy-font/Gilroy-Light.ttf);
+    src : url(../gilroy-font/Gilroy-Medium.ttf);
+    src : url(../gilroy-font/Gilroy-Regular.ttf);
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: url('../img/mulan-hd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+}
+
+#Navbar{
+    background: rgba(185, 183, 183, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+:root {
+    --color-orange: #f79421;
+}
+
+.buy {
+    width: 82vh;
+}
+
+.cine {
+    color: var(--color-orange);
+}
+
+.searchBar {
+    display: flex;
+    height: 2em;
+    padding: 0.5em;
+    background-color: white;
+    border-radius: 0.7em;
+    width: 14em;
+    margin-top: 0.3em;
+    margin-right: 4em;
+  }
+  
+.searchBox {
+    background-color: transparent;
+    border: none;
+    color: black;
+    width: 11em;
+  }
+  
+  .searchIcon {
+    background-color: transparent;
+    width: 20%;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+  }
+  
+
+.discover {
+    font-size: 33pt;
+}
+
+.signup {
+    background-color: var(--color-orange);
+    border-color: var(--color-orange);
+    margin-left: 3em;
+}
+
+.signup:hover {
+    color:white;
+}
+
+.login {
+    border-color: var(--color-orange);
+    color: var(--color-orange);
+}
+
+.login:hover {
+    color: white;
+}
+
+.wave img{
+    width: 100%;
+}
+
+.cok {
+ background-color: rgba(68,49,43, 1);
+}
+
+.enjoy {
+    width: 58em;
+}
+
+/* .gallery-container{
+    width: 800px; 
+    max-width: 850px; 
+    height: 450px; 
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .gallery-container .bg-card .p-4 .pb-16  .gallery-item .gallery-item-1 {
+    transition: transform .5s ease;
+      object-fit: cover;
+      width: 100%;
+      max-width: 900px;
+      height: 450px;
+  }
+  .gallery-container:hover img {
+    transform: scale(1.5);
+  } */
+
+.bg-card {
+    background: url('img/Rectangle-16.png')
+}
+
+.grad {
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.685), rgba(68,49,43, 1));
+    border-bottom-right-radius: 8%;
+    border-bottom-left-radius: 8%;
+}
+
+.wat {
+    background-image:  linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(93, 72, 65, 0.8));
+    border: none;
+}
+
+.wat:hover {
+    background: var(--color-orange);
+    border-color: var(--color-orange);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), #f79421);;
+    color:white;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    padding-top: 8em;
+    padding-left: 19em;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+.subs {
+    width: 28vh;
+    font-size: 22px;
+}
+
+.subs_email {
+    border-color: var(--color-orange);
+}
+
+.foot {
+    margin-top: 40em;
+}
+
+.subbut {
+    background: var(--color-orange);
+}
+
+.bg-footer {
+    background: url('img/Vector-2.png');
+    background-size: cover;
+    padding-top: 45vh;
+}
