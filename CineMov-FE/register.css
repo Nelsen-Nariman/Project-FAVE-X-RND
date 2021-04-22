@@ -1,6 +1,5 @@
 :root {
   --bgBrown: #44312b;
-  --btnOrange: #ff9416;
   --color-orange: #f79421;
 }
 
@@ -30,6 +29,10 @@ body {
   color: white;
 }
 
+.pembatas {
+  border-bottom: 2.5px solid grey;
+}
+
 form {
   background: linear-gradient(
     146.53deg,
@@ -41,7 +44,7 @@ form {
   justify-content: center;
   align-items: center;
   width: 45em;
-  margin-left: 40em;
+  margin-left: 34em;
   margin-right: 24em;
   padding-top: 2em;
   padding-bottom: 2em;
