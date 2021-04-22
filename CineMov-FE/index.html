@@ -8,13 +8,15 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./carousel.css" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
 </head>
 <body class="cok">
   
         <header class="body-font pb-32">
             <div class="mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center" id="Navbar">
               <a href="./index.html" class="flex title-font font-medium items-center mb-4 md:mb-0">
-                <span class="tracking-tighter text-5xl font-black text-white ml-5 mt-4"><span class="cine">Cine</span>Mov.</span>
+                  <span class="heading text-5xl text-white ml-5 mt-4"><span class="cine">Cine</span>Mov.</span>
               </a>
               <nav class="text-white md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center pt-4">
                   <a class="text-3xl hover:underline" href="./index.html"><span class="pr-10 homeBtn">HOME</span></a>                      
@@ -37,11 +39,11 @@
               </div>
               
               <div class="flex flex-col inside ml-24">
-                <span class="pt-96 tracking-tighter text-7xl font-black text-white ml-16 buy">BUY TICKET, WATCH, AND CHILL</span>
+                <span class="heading pt-96 text-7xl text-white ml-16 buy">BUY TICKET, WATCH, AND CHILL</span>
                 <span class="py-4 text-white ml-16 discover tracking-wide">Discover New Movies</span>
                 <div class="flex">
-                  <a href="./register.html"><button class="flex items-center mt-3 border-4 rounded-full px-10 py-0 font-bold tracking-tighter text-2xl text-black signup">Sign Up</button></a>
-                  <a href="./login.html"><button class="flex items-center mt-3 border-4 rounded-full px-14 py-0 font-bold tracking-tighter text-2xl ml-6 login">Login</button></a>
+                  <a href="./register.html"><button class="font-bold flex items-center mt-3 border-4 rounded-full px-10 py-0 tracking-tighter text-2xl text-black signup">Sign Up</button></a>
+                  <a href="./login.html"><button class="font-bold flex items-center mt-3 border-4 rounded-full px-14 py-0 tracking-tighter text-2xl ml-6 login">Login</button></a>
                 </div>
                 <div class="wave">
                   <img src="../CineMov-FE/pic/Vector 1.png" alt="">
@@ -52,10 +54,10 @@
           <div class="cok flex flex-col">
             <div class="justify-center mx-auto my-auto">
             <img class="pt-64 enjoy" src="pic/Illustration watch 1.png">
-            <h1 class="tracking-tighter pt-20 pb-5 font-black text-6xl text-white text-center">Online Cinema</h1>
-            <h2 class="tracking-wider pb-96 text-white text-center text-4xl">Enjoy the moment and stay updated.</h2>
+            <h1 class="heading pt-20 pb-3 text-7xl text-white text-center">Online Cinema</h1>
+            <h2 class="pb-96 text-white text-center enji">Enjoy the moment and stay updated.</h2>
           </div>
-          <h1 id="muvi" class="tracking-widest pt-24 -mb-4 font-black text-5xl text-white text-center">MOVIES</h1>
+          <h1 id="muvi" class="heading tracking-widest pt-24 -mb-4 text-5xl text-white text-center">MOVIES</h1>
           <div class="gallery">
             <div class="gallery-container">
               <img class="bg-card p-4 pb-16  gallery-item gallery-item-1" src="./pic/Movie Captain Marvel.jpg" data-index="1">
@@ -68,7 +70,7 @@
             </div>
           </div>
          
-      <h1 id="trail" class="tracking-widest pt-96 mb-24 font-black text-5xl text-white text-center">TRAILERS</h1>
+      <h1 id="trail" class="heading tracking-widest pt-96 mb-24 text-5xl text-white text-center">TRAILERS</h1>
       <section class="proe">
         <div class="container px-4 py-245 mx-auto">
           <div class="flex flex-wrap -m-4">
@@ -77,7 +79,7 @@
                 <img class="lg:h-60 md:h-36 w-full object-cover object-center" src="./pic/Movie Captain Marvel.jpg" alt="blog">
                 <div class="flex p-6">
                   <h1 class="title-font text-lg font-medium text-white">Captain Marvel</h1>
-                  <button id="button1" class="wat ml-44 font-bold border-2 text-white rounded-xl px-7 pt-1 wat" onclick="display1()">WATCH</button>
+                  <button id="button1" class="wat ml-44 border-2 font-bold text-white rounded-xl px-7 pt-1 wat" onclick="display1()">WATCH</button>
                 </div>
               </div>
             </div>
@@ -86,7 +88,7 @@
                 <img class="lg:h-60 md:h-36 w-full object-cover object-center" src="./pic/raya.jpg" alt="blog">
                 <div class="flex p-6">
                   <h1 class="title-font text-lg font-medium text-white">Raya and The Last Dragon</h1>
-                  <button id="button2" class="wat ml-24 font-bold border-2 text-white rounded-xl px-7 pt-1 wat" onclick="display2()">WATCH</button>
+                  <button id="button2" class="wat ml-24 border-2 font-bold text-white rounded-xl px-7 pt-1 wat" onclick="display2()">WATCH</button>
                 </div>
               </div>
             </div>
@@ -95,7 +97,7 @@
                 <img class="lg:h-60 md:h-36 w-full object-cover object-center" src="./pic/kongzilla.jpg" alt="blog">
                 <div class="flex p-6">
                   <h1 class="title-font text-lg font-medium text-white">Godzilla vs Kong</h1>
-                  <button id="button3" class="wat ml-44 font-bold border-2 text-white rounded-xl px-7 pt-1 wat" onclick="display3()">WATCH</button>
+                  <button id="button3" class="wat ml-44 border-2 font-bold text-white rounded-xl px-7 pt-1 wat" onclick="display3()">WATCH</button>
                 </div>
               </div>
             </div>
@@ -120,7 +122,7 @@
 
       <footer class="bg-footer flex flex-wrap content-center place-content-center place-items-center gap-36 items-center pb-28 foot">
         <div clas="flex-col"> 
-            <span class="tracking-tighter text-7xl font-black text-white ml-3"><span class="cine">Cine</span>Mov.</span>
+            <span class="heading text-7xl text-white ml-3"><span class="cine">Cine</span>Mov.</span>
             <h1 class="mt-6 ml-4 text-white text-3xl pb-16">Online Cinema.</h1>
         </div>
         <div clas="flex flex-col gap-12">

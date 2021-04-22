@@ -6,7 +6,7 @@ var modal2 = document.getElementById("modal2");
 var modal3 = document.getElementById("modal3");
 
 function display1 () {
-        modal1.style.display = "block";
+    modal1.style.display = "block";
 }
 function display2 () {
     modal2.style.display = "block";

@@ -1,0 +1,310 @@
+:root {
+  --bgBrown: #17120f;
+  --color-orange: #f79421;
+}
+
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+header {
+  font-family: Gilroy, sans-serif;
+    src : url(../gilroy-font/Gilroy-Bold.ttf);
+    src : url(../gilroy-font/Gilroy-Heavy.ttf);
+    src : url(../gilroy-font/Gilroy-Light.ttf);
+    src : url(../gilroy-font/Gilroy-Medium.ttf);
+    src : url(../gilroy-font/Gilroy-Regular.ttf);
+}
+
+body {
+  background-color: var(--bgBrown);
+}
+
+.heading {
+  font-family: 'Lilita One', cursive;
+}
+
+.cine {
+  color: var(--color-orange);
+}
+
+.searchBar {
+  display: flex;
+  height: 2em;
+  padding: 0.5em;
+  background-color: white;
+  border-radius: 0.7em;
+  width: 14em;
+  margin-top: 0.3em;
+  margin-right: 4em;
+  margin-left: 79em;
+}
+
+.searchBox {
+  background-color: transparent;
+  border: none;
+  color: black;
+  width: 11em;
+}
+
+.searchIcon {
+  background-color: transparent;
+  width: 20%;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+
+.profilePicture {
+  width: 3%;
+  margin-left: 2em;
+  cursor: pointer;
+}
+
+.header {
+  background-image: url("./pic/mortalKombat.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.kotak {
+  display: flex;
+  flex-direction: column;
+  width: 50em;
+  margin-left: 6rem;
+  margin-top: 9.5em;
+  padding-bottom: 2em;
+}
+
+.kotak h3 {
+  font-size: 22px;
+  margin-top: 0.3em;
+}
+
+.buttonOnHead {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0.3em;
+}
+
+.trailer {
+  color: white;
+  background: linear-gradient(
+    180deg,
+    rgba(243, 243, 243, 0.623) 0%,
+    rgba(243, 243, 243, 0.05) 100%
+  );
+  border: none;
+  padding: 0.25em 1.9em 0.25em 1.9em;
+  border-radius: 3em;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 14pt;
+}
+
+.details {
+  color: white;
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255) -80%, #f79421);
+  border: none;
+  backdrop-filter: blur(30px);
+  padding: 0.25em 1.9em 0.25em 1.9em;
+  border-radius: 3em;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 14pt;
+}
+
+.trailer:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(243, 243, 243, 0.5) 0%,
+    rgba(243, 243, 243, 0.05) 100%
+  );
+  backdrop-filter: blur(30px);
+}
+
+.details:hover {
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255) -50%, #f79421 100%);
+  backdrop-filter: blur(30px);
+}
+
+footer {
+  background-image: url("./pic/Vector 3-dark.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding: 12em 3em 1em 3em;
+
+}
+
+.logo h2 {
+  color: var(--color-orange);
+}
+
+footer .logo {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4em;
+  margin-left: 1em;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.logo p {
+  font-size: 0.55em;
+  margin-top: 0.2em;
+  margin-left: 0.18em;
+}
+
+.yangTiga {
+  display: flex;
+  flex-direction: column;
+  margin-right: 9em;
+}
+
+.yangTiga h3 {
+  margin-bottom: 1.4em;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin-right: 9.6em;
+}
+
+.contacts div {
+  display: flex;
+  margin-top: 1em;
+}
+
+.phone img,
+.mail img {
+  width: 1.45em;
+  margin-right: 0.6em;
+}
+
+.phone h3,
+.mail h3 {
+  letter-spacing: 0.1em;
+}
+
+.palingKanan {
+  display: flex;
+  flex-direction: column;
+  width: 12em;
+}
+
+.palingKanan p {
+  margin-bottom: 0.8em;
+  font-size: large;
+}
+
+.palingKanan input {
+  background-color: transparent;
+  color: var(--color-orange);
+  padding: 0.4em 0.2em;
+  border-radius: 0.7em;
+  margin-top: 0.5em;
+}
+
+.palingKanan label {
+  font-size: medium;
+}
+
+.grid {
+  padding: 4em;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 3em;
+  margin-left: 2.4em;
+}
+
+.card img {
+  width: 24em;
+  height: 30em;
+}
+
+.cardText {
+  width: 24em;
+  background: linear-gradient(
+    144.13deg,
+    rgba(243, 243, 243, 0.6) -60%,
+    rgba(243, 243, 243, 0.06) 91.23%
+  );
+  padding: 0.5em 0em 0.5em 0.5em;
+}
+
+.gure {
+  font-size: 15pt;
+}
+
+.cardText .yangBawah {
+  display: flex;
+}
+
+.cardText .yangBawah p {
+  margin-top: 0.2em;
+}
+
+.lorem {
+  font-size: 17pt;
+}
+
+.cardText .yangBawah button {
+  background: linear-gradient(to bottom, rgba(243, 243, 243, 0.6) -30%, rgba(243, 243, 243, 0.06) 91.23%);
+  backdrop-filter: blur(30px);
+  border: none;
+  padding: 0.25em 1.9em 0.25em 1.9em;
+  border-radius: 2em;
+  margin-left: 9em;
+}
+
+.cardText .yangBawah button:hover {
+  background: var(--color-orange);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), #f79421);
+  color:white;
+  border: none;
+  padding: 0.25em 1.9em 0.25em 1.9em;
+  border-radius: 2em;
+  margin-left: 9em;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 5;
+  padding-top: 8em;
+  padding-left: 19em;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.subs {
+  width: 28vh;
+  font-size: 22px;
+}
+
+.subs_email {
+  border-color: var(--color-orange);
+}
+
+.foot {
+  margin-top: 7.5em;
+}
+
+.subbut {
+  background: var(--color-orange);
+}
+
+.bg-footer {
+  background: url('./pic/Vector 3-dark.png');
+  background-size: cover;
+  padding-top: 45vh;
+}

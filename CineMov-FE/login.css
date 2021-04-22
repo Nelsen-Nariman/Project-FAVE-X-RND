@@ -7,12 +7,10 @@
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
-  font-family: Gilroy, sans-serif;
-    src : url(../gilroy-font/Gilroy-Bold.ttf);
-    src : url(../gilroy-font/Gilroy-Heavy.ttf);
-    src : url(../gilroy-font/Gilroy-Light.ttf);
-    src : url(../gilroy-font/Gilroy-Medium.ttf);
-    src : url(../gilroy-font/Gilroy-Regular.ttf);
+}
+
+.heading {
+  font-family: 'Lilita One', cursive;
 }
 
 body {
@@ -20,6 +18,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  font-family: Gilroy, sans-serif;
+    src : url(../gilroy-font/Gilroy-Bold.ttf);
+    src : url(../gilroy-font/Gilroy-Heavy.ttf);
+    src : url(../gilroy-font/Gilroy-Light.ttf);
+    src : url(../gilroy-font/Gilroy-Medium.ttf);
+    src : url(../gilroy-font/Gilroy-Regular.ttf);
 }
 
 .cine {

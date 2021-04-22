@@ -1,11 +1,5 @@
 * {
     margin: 0%;
-    font-family: Gilroy, sans-serif;
-    src : url(../gilroy-font/Gilroy-Bold.ttf);
-    src : url(../gilroy-font/Gilroy-Heavy.ttf);
-    src : url(../gilroy-font/Gilroy-Light.ttf);
-    src : url(../gilroy-font/Gilroy-Medium.ttf);
-    src : url(../gilroy-font/Gilroy-Regular.ttf);
     scroll-behavior: smooth;
 }
 
@@ -14,6 +8,16 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 1100px;
+    font-family: Gilroy, sans-serif;
+    src : url(../gilroy-font/Gilroy-Bold.ttf);
+    src : url(../gilroy-font/Gilroy-Heavy.ttf);
+    src : url(../gilroy-font/Gilroy-Light.ttf);
+    src : url(../gilroy-font/Gilroy-Medium.ttf);
+    src : url(../gilroy-font/Gilroy-Regular.ttf);
+}
+
+.heading {
+    font-family: 'Lilita One', cursive;
 }
 
 #Navbar{
@@ -94,23 +98,9 @@ header {
     width: 58em;
 }
 
-/* .gallery-container{
-    width: 800px; 
-    max-width: 850px; 
-    height: 450px; 
-    overflow: hidden;
-    margin-bottom: 20px;
-  }
-  .gallery-container .bg-card .p-4 .pb-16  .gallery-item .gallery-item-1 {
-    transition: transform .5s ease;
-      object-fit: cover;
-      width: 100%;
-      max-width: 900px;
-      height: 450px;
-  }
-  .gallery-container:hover img {
-    transform: scale(1.5);
-  } */
+.enji {
+    font-size: 32pt;
+}
 
 .bg-card {
     background: url('./pic/Rectangle 16.png')
@@ -130,7 +120,7 @@ header {
 .wat:hover {
     background: var(--color-orange);
     border-color: var(--color-orange);
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), #f79421);;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), #f79421);
     color:white;
 }
 
@@ -159,7 +149,7 @@ header {
 }
 
 .foot {
-    margin-top: 40em;
+    margin-top: 7.5em;
 }
 
 .subbut {
