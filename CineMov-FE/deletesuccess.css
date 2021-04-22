@@ -1,0 +1,109 @@
+* {
+    margin: 0%;
+    font-family: Gilroy, sans-serif;
+    src : url(../gilroy-font/Gilroy-Bold.ttf);
+    src : url(../gilroy-font/Gilroy-Heavy.ttf);
+    src : url(../gilroy-font/Gilroy-Light.ttf);
+    src : url(../gilroy-font/Gilroy-Medium.ttf);
+    src : url(../gilroy-font/Gilroy-Regular.ttf);
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./pic/background1.png);
+    height: 1000px;
+    width: 100%;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.profil{
+    margin-top: 5px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.kedua{
+    font-size: 47px;
+    font-weight: 800;
+    color: white;
+}
+
+.pertama{
+    font-size: 47px;
+    font-weight: 800;
+    color: #f79421;
+}
+
+.content{
+    background-color: black;
+    margin-left: 200px;
+    width: 900px;
+    border: solid 4px white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+    padding: 100px;
+}
+
+
+
+.caption{
+    margin-top: 50px;
+    color: #f79421;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.tulisan-1{
+    color: #f79421;
+}
+
+.tulisan-2{
+    color: #f79421;
+}
+
+.button{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.menghapus{
+    margin-right: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    background-color: #f79421;
+    text-decoration: none;
+}
+
+.balik{
+    color: #f79421;
+    border: solid 3px #f79421;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 4px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 15px;
+    text-decoration: none;
+}
