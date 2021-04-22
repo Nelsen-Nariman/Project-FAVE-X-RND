@@ -15,15 +15,3 @@ function display2 () {
 function display3 () {
     modal3.style.display = "block";
 }
-
-var iconSearch = document.getElementById("iconSearch");
-var inputSearch = document.getElementById("inputSearch");
-function searchNyaBerubah () {
-    inputSearch.style.display = "block";
-    iconSearch.style.display = "none";
-}
-
-function searchNyaNgilang () {
-    inputSearch.style.display = "none";
-    iconSearch.style.display = "block";
-}
