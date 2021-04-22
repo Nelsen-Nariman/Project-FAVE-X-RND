@@ -10,25 +10,23 @@
 }
 
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./pic/background1.png);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./pic/bgAdmin-dark.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     width: 100%;
     
 }
-
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px;
+:root {
+    --color-orange: #f79421;
 }
 
-.profil{
-    margin-top: 5px;
+.cine {
+    color: var(--color-orange);
 }
 
-.nav-link{
-    text-decoration: none;
+.personLogo {
+    margin-left: 96em;
 }
 
 .kedua{
@@ -51,15 +49,19 @@ body{
 }
 
 .konten{
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(185, 183, 183, 0.5));
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
+    background: linear-gradient(146.53deg, rgba(243, 243, 243, 0.4) -10.26%, rgba(243, 243, 243, 0.04) 84.29%);
+    backdrop-filter: blur(30px);
+    border-radius: 1.4em;
     text-align: center;
     padding: 60px;
     padding-left: 170px;
     padding-right: 170px;
     color: white;
     margin: 30px;
+}
+
+.konten:hover {
+    background-color: #f79416;
 }
 
 .isi-1{

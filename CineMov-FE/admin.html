@@ -6,16 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styleAdmin.css">
     <title>Admin Panel</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="navbar">
-        <div class="logo">
-            <a href="./index.html" class="nav-link"><span class="pertama">Cine</span><span class="kedua">Mov.</span></a>
-        </div>
-        <div class="profil">
-            <img src="./pic/bi_person-circle.png" height="50px" width="60px">
-        </div>
-    </div>
+    <header class="body-font pb-8">
+        <div class="mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center" id="Navbar">
+          <a href="./index.html" class="flex title-font font-medium items-center mb-4 md:mb-0">
+            <span class="tracking-tighter text-5xl font-black text-white ml-5 mt-4"><span class="cine">Cine</span>Mov.</span>
+          </a>
+           <button class="personLogo w-18 mt-2 mr-6">
+            <img src="./pic/bi_person-circle.png">
+          </button>
+          </div>
+    </header>
 
     <div class="content">
         <div class="konten">
@@ -34,7 +37,7 @@
                 Movie's Name, Picture, Description, Data Release, and Durations.
             </div>
         </div>
-        <div class="konten">
+        <div class="konten mb-96">
             <div class="isi-1">
                 Update Movie
             </div>
